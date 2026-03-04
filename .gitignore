@@ -17,3 +17,5 @@ notebooks/runs
 *.gif
 *.webp
 *.svg
+
+*.pth
