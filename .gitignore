@@ -2,6 +2,7 @@ __pycache__
 
 **/.ipynb_checkpoints/
 .venv
+.vs
 
 uv.lock
 
@@ -19,3 +20,4 @@ notebooks/runs
 *.svg
 
 *.pth
+*.txt
