@@ -14,7 +14,7 @@ dependencies = [
     "torch",
     "torchvision",
     "pandas>=3.0.1",
-    "fhfdata",
+    "openpyxl>=3.1.5",
 ]
 
 [tool.uv.sources]
@@ -24,7 +24,6 @@ torch = [
 torchvision = [
   { index = "pytorch-cu118" },
 ]
-fhfdata = { path = "N:/Projekte/_Ideen/KI/FHFData" }
 
 [[tool.uv.index]]
 name = "pytorch-cu118"
