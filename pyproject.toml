@@ -15,6 +15,7 @@ dependencies = [
     "torchvision",
     "pandas>=3.0.1",
     "openpyxl>=3.1.5",
+    "demotwin",
 ]
 
 [tool.uv.sources]
@@ -24,6 +25,7 @@ torch = [
 torchvision = [
   { index = "pytorch-cu118" },
 ]
+demotwin = { path = "E:/DemoTwin", editable = true }
 
 [[tool.uv.index]]
 name = "pytorch-cu118"
